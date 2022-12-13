@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* ------------Nav---------------- */
+
+nav {
+  display: flex;
+  flex: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  font-family: "Fira Mono";
+  box-shadow: 1px 1px rgb(202, 198, 198);
+  /* background-color: black; */
+}
+
+.nav__left,
+.nav__right,
+.nav__right-1,
+.nav__right-2 {
+  display: flex;
+  flex-direction: row;
+}
+.nav__left > a {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+.nav__left__svg {
+  height: 50px;
+  transition: height 1s;
+}
+.nav__left__svg:hover {
+  height: 4.6rem;
+}
+.nav__left {
+  margin-left: 35px;
+  align-items: center;
+}
+.nav__left > p {
+  font-weight: 700;
+  font-size: 16px;
+}
+.nav__right {
+  align-items: center;
+  gap: 20rem;
+}
+.nav__right__1 {
+  display: flex;
+  gap: 5rem;
+}
+.nav__right__1 > p {
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+.nav__right__1 > a:hover {
+  border-top: 1px solid rgb(118, 118, 218);
+}
+.nav__right__2 > a > p {
+  font-weight: 500;
+  font-size: 14px;
+}
+.nav__right__2 > a > .fab {
+  font-size: 20px;
+}
+.nav__right__2 > a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 29px;
+  border: 1px solid rgb(205, 200, 200);
+  height: 3rem;
+  width: 7rem;
+  /* align-items: center; */
+  justify-content: center;
+  cursor: pointer;
+  transition: width 1s;
+}
+
+.header__right-1 > a {
+  text-decoration: none;
+  color: black;
+}
+.nav__right__2 {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  gap: 4px;
+}
+.nav__right__2 > a:hover {
+  background-color: rgb(223, 207, 207);
+  width: 150px;
+}
+
+/* -----------Nav------------- */
+
+/*------------------------ Main------------------------- */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.main__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.main__container > h1 {
+  font-family: "Actor";
+  font-size: 50px;
+  /* letter-spacing: 2px; */
+}
+.main__container > p {
+  letter-spacing: 1px;
+  font-family: "Fira Mono";
+}
+.main__container__sub {
+  margin-top: 20px;
+  display: flex;
+
+  /* justify-content: center; */
+  align-items: center;
+  gap: 70px;
+}
+.main__container__sub > a > button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4rem;
+  width: 12rem;
+  justify-content: center;
+  border: none;
+  background-color: rgb(141, 107, 214);
+  font-size: 14px;
+  font-family: "Fira Mono";
+  border-radius: 7px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.main__container__sub > a {
+  text-decoration: none;
+}
+.main__container__sub > p {
+  display: flex;
+  background-color: rgb(22, 55, 89);
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 41.5rem;
+  gap: 2px;
+  border: none;
+  border-radius: 5px;
+  color: grey;
+  cursor: pointer;
+  font-family: "Fira Mono";
+}
+.main__container__sub > p:hover {
+  border: 20px solid rgb(13, 13, 20);
+}
+.bi {
+  margin-left: 10px;
+}
