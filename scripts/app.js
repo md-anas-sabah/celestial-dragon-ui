@@ -8,3 +8,4 @@ function handleCopyTextFromParagraph() {
 
   paragraph.removeChild(area);
 }
+
