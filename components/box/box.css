@@ -114,6 +114,10 @@ nav {
   padding: 40px;
   margin: 20px;
   /* background-color: rgb(211, 233, 252); */
+  font-family: "Fira Mono";
+  align-items: flex-start;
+  border: 1px solid grey;
+  box-shadow: 1px 10px 10px grey;
 }
 .sidebar {
   display: flex;
@@ -121,11 +125,10 @@ nav {
   justify-content: center;
   flex: 10%;
   /* background-color: red; */
-  border-right: 1px solid rgb(208, 200, 200);
+  /* border-right: 1px solid rgb(208, 200, 200); */
   text-align: center;
 }
 .sidebar > p {
-  font-family: "Fira Mono";
   font-weight: 700;
   margin-top: -30px;
   font-size: 20px;
@@ -134,7 +137,7 @@ nav {
 }
 .sidebar > ul {
   margin-top: 30px;
-  font-family: "Fira Mono";
+
   height: 70vh;
   overflow-y: scroll;
   scroll-behavior: smooth;
@@ -159,8 +162,27 @@ nav {
 .main__container {
   flex: 80%;
   margin-top: 30px;
-  background-color: yellow;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
+.main__container__header > h1 {
+  font-size: 26px;
+  font-family: "Fira Mono";
+  color: rgb(83, 78, 78);
+}
+.main__container__header > p {
+  width: 70rem;
+  margin-top: 20px;
+}
+.main__container__body > h1 {
+  font-size: 18px;
+}
+.main__container__body > p {
+  margin-top: 20px;
+}
+/* Media Query */
 @media (max-width: 600px) {
   nav {
     /* width: 100vw; */

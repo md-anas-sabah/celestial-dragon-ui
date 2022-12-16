@@ -24,7 +24,6 @@ nav {
   height: 5rem;
   font-family: "Fira Mono";
   box-shadow: 1px 1px rgb(202, 198, 198);
-  /* background-color: black; */
 }
 
 .nav__left,
@@ -220,6 +219,7 @@ footer {
     margin-top: -30px;
     font-size: 10px;
     width: 35rem;
+    font-family: "Fira Mono";
   }
   footer {
     display: none;
