@@ -1,0 +1,51 @@
+.image__avatar {
+  font-family: "Fira Mono";
+  color: rgb(83, 78, 78);
+}
+.image__avatar > h1 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.image__avatar > p {
+  margin-top: 10px;
+}
+.image__avatar__img {
+  margin-top: 40px;
+  height: 7rem;
+  width: 55rem;
+  border: 1px solid rgb(226, 217, 217);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.avatar__image {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+}
+.image__avatar__text {
+  margin-top: 40px;
+  height: 7rem;
+  width: 55rem;
+  border: 1px solid rgb(226, 217, 217);
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+}
+.image__avatar__text > h1 {
+  height: 4rem;
+  width: 4rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  color: black;
+  /* border: 1px solid black; */
+}

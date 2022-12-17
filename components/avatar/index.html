@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="avatar.css" />
+    <link rel="stylesheet" href="../component.css" />
+    <title>🐉|Avatar</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__left">
+        <a href="/"
+          ><img src="/assets/logo2.svg" alt="logo" class="nav__left__svg" />
+          <p>Celestial Dragon</p></a
+        >
+      </div>
+      <div class="nav__right">
+        <div class="nav__right__1">
+          <a href="">Design</a>
+          <a href="">Development</a>
+          <a href="">Component</a>
+          <a href="">Blogs</a>
+          <a href="">Resource</a>
+        </div>
+        <div class="nav__right__2">
+          <a href="https://github.com/md-anas-sabah/celestial-dragon-ui">
+            <i class="fab fa-github"></i>
+            <p>Github</p>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="sidebar">
+        <p>Components</p>
+        <ul>
+          <li><a href="../box/index.html">Box</a></li>
+          <li><a href="">Avatar</a></li>
+          <li><a href="">Button</a></li>
+          <li><a href="">Close Button</a></li>
+          <li><a href="">Input</a></li>
+          <li><a href="">Alert</a></li>
+          <li><a href="">Text</a></li>
+          <li><a href="">Heading</a></li>
+          <li><a href="/">Links</a></li>
+        </ul>
+      </div>
+      <div class="main__container">
+        <div class="main__container__header">
+          <h1>Avatar</h1>
+          <p>
+            The Avatar component is used to represent user, and displays the
+            profile picture, initials or fallback icon. They are found
+            throughout material design with uses in everything from tables to
+            dialog menus.
+          </p>
+        </div>
+        <div class="main__container__body">
+          <h1>Import</h1>
+          <div class="import">
+            <p>
+              <span class="light-green">import </span>
+              <span class="purple">{</span> Avatar
+              <span class="purple__1">}</span
+              ><span class="light-green">from</span>
+              <span class="green"> '@celestial-ui/react'</span>
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-clipboard"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+              />
+              <path
+                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+              />
+            </svg>
+          </div>
+
+          <div class="image__avatar">
+            <h1>Image Avatar</h1>
+            <p>
+              Image avatars can be created by passing standard
+              <i style="color: rgb(116, 52, 175); font-weight: 700">img</i>
+              props
+              <i style="color: rgb(116, 52, 175); font-weight: 700">src</i> or
+              <i style="color: rgb(116, 52, 175); font-weight: 700">srcSet</i>
+              to the component.
+            </p>
+            <div class="image__avatar__img">
+              <img
+                class="avatar__image"
+                src="https://w0.peakpx.com/wallpaper/715/528/HD-wallpaper-naruto-uzumaki-rasengan-close-up-naruto-manga-naruto-characters.jpg"
+                alt="img"
+              />
+              <img
+                class="avatar__image"
+                src="https://wallpaperaccess.com/full/1386357.jpg"
+                alt=""
+              />
+              <img
+                class="avatar__image"
+                src="https://c4.wallpaperflare.com/wallpaper/424/557/93/bleach-ichigo-kurosaki-wallpaper-preview.jpg"
+                alt=""
+              />
+            </div>
+            <div class="box__code">
+              <div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Avatar </span
+                  ><span class="green"><i>alt</i></span
+                  ><span class="blue">=</span><span class="blue">"</span
+                  ><span class="light-green">Naruto Uzumaki</span
+                  ><span class="blue">" </span
+                  ><span class="green"><i>src</i></span
+                  ><span class="blue">=</span><span class="blue">'</span>
+                  <span class="light-green">/static/images/avatar/1.jpg</span
+                  ><span class="blue">'</span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Avatar </span
+                  ><span class="green"><i>alt</i></span
+                  ><span class="blue">=</span><span class="blue">"</span
+                  ><span class="light-green">Boa Hancock</span
+                  ><span class="blue">" </span
+                  ><span class="green"><i>src</i></span
+                  ><span class="blue">=</span><span class="blue">'</span>
+                  <span class="light-green">/static/images/avatar/2.jpg</span
+                  ><span class="blue">'</span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Avatar </span
+                  ><span class="green"><i>alt</i></span
+                  ><span class="blue">=</span><span class="blue">"</span
+                  ><span class="light-green">Ichigo Kurosaki</span
+                  ><span class="blue">" </span
+                  ><span class="green"><i>src</i></span
+                  ><span class="blue">=</span><span class="blue">'</span>
+                  <span class="light-green">/static/images/avatar/3.jpg</span
+                  ><span class="blue">'</span>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clipboard white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                  />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <h1>Letter Avatar</h1>
+            <p>
+              Avatars containing simple characters can be created by passing a
+              string as
+              <i style="color: rgb(116, 52, 175); font-weight: 700">children</i
+              >.
+            </p>
+            <div class="image__avatar__text">
+             <h1 class="bg-grey">AS</h1>
+            <h1 class="bg-orange">AH</h1>
+            <h1 class="bg-purple">NH</h1>
+            </div>
+            <div class="box__code">
+              <div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Avatar</span
+                  ><span class="blue">></span><span class="light-green">AS</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Avatar</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Avatar</span
+                  ><span class="green"> sx</span><span class="blue">=</span><span class="blue">{{</span>
+                    <span class="red">bgColor: deepOrange</span><span class="blue">[</span>
+                    <span class="purple">500</span><span class="blue">]</span><span class="blue"> }}</span><span class="blue">></span><span class="light-green">AH</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Avatar</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Avatar</span
+                    ><span class="green"> sx</span><span class="blue">=</span><span class="blue">{{</span>
+                      <span class="red">bgColor: deepPurple</span><span class="blue">[</span>
+                      <span class="purple">500</span><span class="blue">]</span><span class="blue"> }}</span><span class="blue">></span><span class="light-green">NH</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Avatar</span><span class="blue">></span>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clipboard white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                  />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <br>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
