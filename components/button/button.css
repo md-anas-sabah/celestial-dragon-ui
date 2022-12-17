@@ -1,0 +1,106 @@
+.button {
+  font-family: "Fira Mono";
+  color: rgb(83, 78, 78);
+}
+.button > h1 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.button > p {
+  margin-top: 10px;
+}
+.basic__button,
+.text__button {
+  height: 7rem;
+  width: 55rem;
+  border: 1px solid rgb(226, 217, 217);
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.default,
+.contained,
+.outlined,
+.primary,
+.disabled,
+.linked,
+.secondary,
+.success,
+.error {
+  height: 4rem;
+  width: 9rem;
+  font-size: 14px;
+  font-family: "Fira Mono";
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.default {
+  border: none;
+  background-color: #fff;
+}
+.default:hover {
+  background-color: rgb(230, 220, 220);
+}
+.contained {
+  background-color: rgb(46, 46, 76);
+  color: white;
+  border-radius: 10px;
+  border: none;
+}
+.contained:hover {
+  background-color: rgb(53, 53, 118);
+}
+.outlined {
+  background-color: rgb(16, 168, 168);
+  color: white;
+  border-radius: 10px;
+}
+
+.primary,
+.disabled,
+.linked,
+.secondary {
+  border: none;
+  font-weight: 700;
+  color: purple;
+  background-color: #fff;
+}
+.disabled {
+  color: grey;
+}
+.filled {
+  background-color: rgb(46, 46, 76);
+  color: white;
+  border-radius: 10px;
+}
+.filled-grey {
+  background-color: rgb(73, 66, 66);
+  color: grey;
+  border-radius: 10px;
+}
+.secondary:hover {
+  background-color: rgb(222, 216, 216);
+}
+.success {
+  background-color: rgb(164, 224, 73);
+  border: none;
+}
+.success:hover {
+  background-color: green;
+}
+.error {
+  background-color: #fff;
+  border: 1px solid red;
+  color: red;
+}
+.error:hover {
+  background-color: rgb(251, 204, 204);
+}

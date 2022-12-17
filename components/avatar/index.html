@@ -44,13 +44,13 @@
         <ul>
           <li><a href="../box/index.html">Box</a></li>
           <li><a href="">Avatar</a></li>
-          <li><a href="">Button</a></li>
-          <li><a href="">Close Button</a></li>
-          <li><a href="">Input</a></li>
-          <li><a href="">Alert</a></li>
-          <li><a href="">Text</a></li>
-          <li><a href="">Heading</a></li>
-          <li><a href="/">Links</a></li>
+          <li><a href="../button/index.html">Button</a></li>
+          <li><a href="../close button/index.html">Close Button</a></li>
+          <li><a href="../input/index.html">Input</a></li>
+          <li><a href="../alert/index.html">Alert</a></li>
+          <li><a href="../text/index.html">Text</a></li>
+          <li><a href="../headings/index.html">Heading</a></li>
+          <li><a href="../links/index.html">Links</a></li>
         </ul>
       </div>
       <div class="main__container">
@@ -128,7 +128,7 @@
                   ><span class="green"><i>src</i></span
                   ><span class="blue">=</span><span class="blue">'</span>
                   <span class="light-green">/static/images/avatar/1.jpg</span
-                  ><span class="blue">'</span>
+                  ><span class="blue">'</span><span class="blue">/></span>
                 </div>
                 <div>
                   <span class="blue"><</span><span class="yellow">Avatar </span
@@ -139,7 +139,7 @@
                   ><span class="green"><i>src</i></span
                   ><span class="blue">=</span><span class="blue">'</span>
                   <span class="light-green">/static/images/avatar/2.jpg</span
-                  ><span class="blue">'</span>
+                  ><span class="blue">'</span><span class="blue">/></span>
                 </div>
                 <div>
                   <span class="blue"><</span><span class="yellow">Avatar </span
@@ -150,7 +150,7 @@
                   ><span class="green"><i>src</i></span
                   ><span class="blue">=</span><span class="blue">'</span>
                   <span class="light-green">/static/images/avatar/3.jpg</span
-                  ><span class="blue">'</span>
+                  ><span class="blue">'</span><span class="blue">/></span>
                 </div>
               </div>
               <div>
@@ -222,7 +222,80 @@
               </div>
             </div>
 
-            <br>
+            <h1>Sizes</h1>
+            <p>You can change the size of the avatar with the <i style="color: rgb(116, 52, 175); font-weight: 700">height</i>  and <i style="color: rgb(116, 52, 175); font-weight: 700">width</i>  CSS properties.</p>
+            <div class="image__avatar__img">
+              <img
+                class="avatar__image small"
+                src="https://w0.peakpx.com/wallpaper/715/528/HD-wallpaper-naruto-uzumaki-rasengan-close-up-naruto-manga-naruto-characters.jpg"
+                alt="img"
+              />
+              <img
+                class="avatar__image medium"
+                src="https://wallpaperaccess.com/full/1386357.jpg"
+                alt=""
+              />
+              <img
+                class="avatar__image large"
+                src="https://c4.wallpaperflare.com/wallpaper/424/557/93/bleach-ichigo-kurosaki-wallpaper-preview.jpg"
+                alt=""
+              />
+            </div>
+
+            <div class="box__code big">
+              <div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Avatar </span
+                  ><span class="green"><i>alt</i></span
+                  ><span class="blue">=</span><span class="blue">"</span
+                  ><span class="light-green">Naruto Uzumaki</span
+                  ><span class="blue">" </span
+                  ><span class="green"><i>src</i></span
+                  ><span class="blue">=</span><span class="blue">'</span>
+                  <span class="light-green">/static/images/avatar/1.jpg</span
+                  ><span class="blue">'</span><span class="green"><br> sx</span><span class="blue">=</span><span class="blue">{{ </span> <span class="red">width: </span><span class="purple">24</span><span>,</span><span class="red">height:</span> <span class="purple">24</span> <span class="blue"> }}</span><span class="blue">/></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Avatar </span
+                    ><span class="green"><i>alt</i></span
+                    ><span class="blue">=</span><span class="blue">"</span
+                    ><span class="light-green">Boa Hancock</span
+                    ><span class="blue">" </span
+                    ><span class="green"><i>src</i></span
+                    ><span class="blue">=</span><span class="blue">'</span>
+                    <span class="light-green">/static/images/avatar/2.jpg</span
+                    ><span class="blue">'</span><span class="green"><br> sx</span><span class="blue">=</span><span class="blue">{{ </span> <span class="red">width: </span><span class="purple">56</span><span>,</span><span class="red">height:</span> <span class="purple">56</span> <span class="blue"> }}</span><span class="blue">/></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Avatar </span
+                  ><span class="green"><i>alt</i></span
+                  ><span class="blue">=</span><span class="blue">"</span
+                  ><span class="light-green">Ichigo Kurosaki</span
+                  ><span class="blue">" </span
+                  ><span class="green"><i>src</i></span
+                  ><span class="blue">=</span><span class="blue">'</span>
+                  <span class="light-green">/static/images/avatar/3.jpg</span
+                  ><span class="blue">'</span><span class="blue">/></span>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clipboard white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                  />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                  />
+                </svg>
+              </div>
+            </div>
         </div>
       </div>
     </div>

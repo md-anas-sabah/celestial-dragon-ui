@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="button.css" />
+    <link rel="stylesheet" href="../component.css" />
+    <title>🐉|Button</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__left">
+        <a href="/"
+          ><img src="/assets/logo2.svg" alt="logo" class="nav__left__svg" />
+          <p>Celestial Dragon</p></a
+        >
+      </div>
+      <div class="nav__right">
+        <div class="nav__right__1">
+          <a href="">Design</a>
+          <a href="">Development</a>
+          <a href="">Component</a>
+          <a href="">Blogs</a>
+          <a href="">Resource</a>
+        </div>
+        <div class="nav__right__2">
+          <a href="https://github.com/md-anas-sabah/celestial-dragon-ui">
+            <i class="fab fa-github"></i>
+            <p>Github</p>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="sidebar">
+        <p>Components</p>
+        <ul>
+          <li><a href="../box/index.html">Box</a></li>
+          <li><a href="../avatar/index.html">Avatar</a></li>
+          <li><a href="">Button</a></li>
+          <li><a href="../close button/index.html">Close Button</a></li>
+          <li><a href="../input/index.html">Input</a></li>
+          <li><a href="../alert/index.html">Alert</a></li>
+          <li><a href="../text/">Text</a></li>
+          <li><a href="../headings/index.html">Heading</a></li>
+          <li><a href="../links/index.html">Links</a></li>
+        </ul>
+      </div>
+      <div class="main__container">
+        <div class="main__container__header">
+          <h1>Button</h1>
+          <p>
+            Button component is used to trigger an action or event, such as submitting a form, opening a Dialog, canceling an action, or performing a delete operation. Buttons allow users to take actions, and make choices, with a single tap.
+          </p>
+        </div>
+        <div class="main__container__body">
+          <h1>Import</h1>
+          <div class="import">
+            <p>
+              <span class="light-green">import </span>
+              <span class="purple">{</span> Button
+              <span class="purple__1">}</span
+              ><span class="light-green">from</span>
+              <span class="green"> '@celestial-ui/react'</span>
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-clipboard"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+              />
+              <path
+                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+              />
+            </svg>
+          </div>
+
+          <div class="button">
+            <h1>Basic Button</h1>
+            <p>
+              The <i style="color: blue; font-weight: 700;">Button</i> comes with three variants: text (default), contained, and outlined.
+            </p>
+            <div class="basic__button">
+              <button class="default">Text</button>
+              <button class="contained">Contained</button>
+              <button class="outlined">Outlined</button>
+            </div>
+            <div class="box__code">
+              <div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> variant</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">text</span><span class="blue">"</span><span class="blue">></span><span class="white">Text</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> variant</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">contained</span><span class="blue">"</span><span class="blue">></span><span class="white">Contained</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> variant</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">outlined</span><span class="blue">"</span><span class="blue">></span><span class="white">Outlined</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clipboard white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                  />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <h1>Text Button</h1>
+            <p> <i style="color: blue; font-weight: 700;">Text buttons</i> are typically used for less-pronounced actions, including those located: in dialogs, in cards. In cards, text buttons help maintain an emphasis on card content.</p>
+            <div class="text__button">
+              <button class="primary">Primary</button>
+              <button disabled class="disabled">Disabled</button>
+              <button class="linked">Link</button>
+            </div>
+            <div class="box__code">
+              <div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="blue">></span><span class="white">Primary</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span>
+                  <span class="green">disabled</span><span class="blue">></span><span class="white">Disabled</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> href</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">#text-buttons</span><span class="blue">"</span><span class="blue">></span><span class="white">Link</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clipboard white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                  />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                  />
+                </svg>
+              </div>
+            </div>
+
+            <h1>Contained Button</h1>
+            <p><i style="color: blue; font-weight: 700;">Contained buttons</i> are high-emphasis, distinguished by their use of elevation and fill. They contain actions that are primary to your app.</p>
+            <div class="text__button">
+              <button class="primary filled">Primary</button>
+              <button disabled class="disabled filled-grey">Disabled</button>
+              <button class="linked filled">Link</button>
+            </div>
+            <div class="box__code">
+              <div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> variant</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">contained</span><span class="blue">"</span><span class="blue">></span><span class="white">Contained</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> variant</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">contained</span><span class="blue">"</span> <span class="green">disabled</span><span class="blue">></span><span class="white">Disabled</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> variant</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">contained</span><span class="blue">"</span><span class="green"> href</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">#text-buttons</span><span class="blue">></span><span class="white">Contained</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clipboard white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                  />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                  />
+                </svg>
+              </div>
+            </div>
+            <h1>Color</h1>
+            <div class="text__button">
+              <button class="secondary">Secondary</button>
+              <button class="success">Success</button>
+              <button class="error">Error</button>
+            </div>
+            <div class="box__code">
+              <div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> color</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">secondary</span><span class="blue">"</span><span class="blue">></span><span class="white">Secondary</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> variant</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">contained</span><span class="blue">"</span> <span class="green">color</span><span class="blue">=</span><span class="blue">'</span><span class="light-green">success</span><span class="blue">'</span><span class="blue">></span><span class="white">Disabled</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+                <div>
+                  <span class="blue"><</span><span class="yellow">Button</span><span class="green"> variant</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">outlined</span><span class="blue">"</span><span class="green"> color</span><span class="blue">=</span><span class="blue">"</span><span class="light-green">error</span><span class="blue">"</span><span class="blue">></span><span class="white">Error</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Button</span><span class="blue">></span>
+                </div>
+              </div>
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-clipboard white"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                  />
+                  <path
+                    d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                  />
+                </svg>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

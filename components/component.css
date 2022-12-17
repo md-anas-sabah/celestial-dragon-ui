@@ -193,6 +193,9 @@ nav {
 .orange {
   color: rgb(216, 146, 16);
 }
+.white{
+  color: #fff;
+}
 ::-webkit-scrollbar {
   width: 10px;
   color: black;
@@ -259,4 +262,7 @@ nav {
 .box__code > div > .white {
   color: #fff;
   margin-left: 40px;
+}
+.big{
+  height: 10rem ;
 }

@@ -47,5 +47,12 @@
   justify-content: center;
   border-radius: 50%;
   color: black;
-  /* border: 1px solid black; */
+}
+.small {
+  height: 2rem;
+  width: 2rem;
+}
+.medium {
+  height: 3rem;
+  width: 3rem;
 }
