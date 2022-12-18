@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="../component.css" />
+    <title>🐉|Input</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__left">
+        <a href="/"
+          ><img src="/assets/logo2.svg" alt="logo" class="nav__left__svg" />
+          <p>Celestial Dragon</p></a
+        >
+      </div>
+      <div class="nav__right">
+        <div class="nav__right__1">
+          <a href="">Design</a>
+          <a href="">Development</a>
+          <a href="">Component</a>
+          <a href="">Blogs</a>
+          <a href="">Resource</a>
+        </div>
+        <div class="nav__right__2">
+          <a href="https://github.com/md-anas-sabah/celestial-dragon-ui">
+            <i class="fab fa-github"></i>
+            <p>Github</p>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="sidebar">
+        <p>Components</p>
+        <ul>
+          <li><a href="../box/index.html">Box</a></li>
+          <li><a href="../avatar/index.html">Avatar</a></li>
+          <li><a href="../button/index.html">Button</a></li>
+          <li><a href="../close button/index.html">Close Button</a></li>
+          <li><a href="">Input</a></li>
+          <li><a href="../alert/index.html">Alert</a></li>
+          <li><a href="../text/">Text</a></li>
+          <li><a href="../headings/index.html">Heading</a></li>
+          <li><a href="../links/index.html">Links</a></li>
+        </ul>
+      </div>
+      <div class="main__container">
+        <div class="main__container__header">
+          <h1>Input</h1>
+          
+         <p>Input component is a component that is used to get user input in a text field.</p>
+        </div>
+        <div class="main__container__body">
+          <h1>Import</h1>
+          <div class="import">
+            <p>
+              <span class="light-green">import </span>
+              <span class="purple">{</span> Input
+              <span class="purple__1">}</span
+              ><span class="light-green">from</span>
+              <span class="green"> '@celestial-ui/react'</span>
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-clipboard"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+              />
+              <path
+                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+              />
+            </svg>
+          </div>
+
+          <div class="usage">
+            <h1 class="usage_h1">Usage</h1>
+            <p>Here's a basic usage example of the Input component:</p>
+
+            <div class="input__container">
+                <input type="text" class="input__default" placeholder="Basic usage" >
+            </div>
+            <div class="box__code-sm">
+                <div>
+                  <div>
+                    <span class="blue"><</span><span class="yellow">Input </span> <span class="green"><i>placeholder</i></span><span class="blue">='</span><span class="light-green">Basic Usage</span><span class="blue">'</span><span class="blue">/</span><span class="blue">></span>
+                  </div>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard white"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                    />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+              <h1 class="usage_h1">Changing the size of input</h1>
+              <p>The <i style="color: rgb(116, 52, 175); font-weight: 700">Input</i> component comes in four sizes. The default is <i style="color: rgb(116, 52, 175); font-weight: 700">md</i>.</p>
+              <div class="input__container__lg">
+                <input type="text" class="input__ex-sm" placeholder="extra small size" >
+                <input type="text" class="input__sm" placeholder="small size" >
+                <input type="text" class="input__default" placeholder="medium size" >
+                <input type="text" class="input__lg" placeholder="large size" >
+            </div>
+            <div class="box__code-md">
+                <div>
+                  <div>
+                    <span class="blue"><</span><span class="yellow">Input </span> <span class="green"><i>placeholder</i></span><span class="blue">='</span><span class="light-green">extra small size</span><span class="blue">'</span> <span class="green">size</span><span class="blue">='</span><span class="light-green">xs</span><span class="blue">'</span><span class="blue">/</span><span class="blue">></span>
+                  </div>
+                  <div>
+                    <span class="blue"><</span><span class="yellow">Input </span> <span class="green"><i>placeholder</i></span><span class="blue">='</span><span class="light-green">small size</span><span class="blue">'</span> <span class="green">size</span><span class="blue">='</span><span class="light-green">sm</span><span class="blue">'</span><span class="blue">/</span><span class="blue">></span>
+                  </div>
+                  <div>
+                    <span class="blue"><</span><span class="yellow">Input </span> <span class="green"><i>placeholder</i></span><span class="blue">='</span><span class="light-green">medium size</span><span class="blue">'</span> <span class="green">size</span><span class="blue">='</span><span class="light-green">md</span><span class="blue">'</span><span class="blue">/</span><span class="blue">></span>
+                  </div>
+                  <div>
+                    <span class="blue"><</span><span class="yellow">Input </span> <span class="green"><i>placeholder</i></span><span class="blue">='</span><span class="light-green">large size</span><span class="blue">'</span> <span class="green">size</span><span class="blue">='</span><span class="light-green">lg</span><span class="blue">'</span><span class="blue">/</span><span class="blue">></span>
+                    
+                  </div>
+                  
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-clipboard white"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                    />
+                    <path
+                      d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                    />
+                  </svg>
+                </div>
+              </div>
+
+          </div>
+      </div>
+    </div>
+  </body>
+</html>

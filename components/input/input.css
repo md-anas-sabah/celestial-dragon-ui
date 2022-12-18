@@ -1,0 +1,59 @@
+.input__container {
+  height: 4rem;
+  width: 40rem;
+  border: 1px solid rgb(226, 217, 217);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  padding: 30px;
+}
+.input__default {
+  height: 3rem;
+  width: 35rem;
+  padding: 13px;
+  border: 1px solid rgb(226, 217, 217);
+  font: "Fira Mono";
+  font-size: 12px;
+}
+.input__container__lg {
+  /* height: 19rem; */
+  width: 40rem;
+  border: 1px solid rgb(226, 217, 217);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: flex-start;
+  /* align-items: center; */
+  border-radius: 20px;
+  padding: 30px;
+}
+.input__ex-sm {
+  height: 1rem;
+  width: 35rem;
+  padding: 13px;
+  border: 1px solid rgb(226, 217, 217);
+  font: "Fira Mono";
+  font-size: 12px;
+}
+.input__sm {
+  height: 2.6rem;
+  width: 35rem;
+  padding: 13px;
+  border: 1px solid rgb(226, 217, 217);
+  font: "Fira Mono";
+  font-size: 12px;
+}
+.input__lg {
+  height: 5rem;
+  width: 35rem;
+  padding: 13px;
+  border: 1px solid rgb(226, 217, 217);
+  font: "Fira Mono";
+  font-size: 12px;
+  
+}
