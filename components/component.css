@@ -114,7 +114,7 @@ nav {
   font-family: "Fira Mono";
   align-items: flex-start;
   border: 1px solid grey;
-  box-shadow: 11px -10px 10px grey;
+  box-shadow: -11px 1px 10px grey;
   border-radius: 20px;
 }
 .sidebar {
@@ -163,7 +163,7 @@ nav {
 .bg-orange {
   background-color: orange;
 }
-.bg-purple{
+.bg-purple {
   background-color: purple;
 }
 .light-green {
@@ -184,7 +184,7 @@ nav {
 .blue {
   color: rgb(125, 125, 249);
 }
-.red{
+.red {
   color: rgb(246, 94, 94);
 }
 .yellow {
@@ -193,7 +193,7 @@ nav {
 .orange {
   color: rgb(216, 146, 16);
 }
-.white{
+.white {
   color: #fff;
 }
 ::-webkit-scrollbar {
@@ -258,11 +258,40 @@ nav {
   background-color: #252525;
   padding: 20px;
 }
-
+.box__code-sm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  border: 1px solid black;
+  align-items: center;
+  width: 70rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 4rem;
+  font-size: 15px;
+  background-color: #252525;
+  padding: 20px;
+}
+.box__code-md {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  border: 1px solid black;
+  align-items: center;
+  width: 70rem;
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 6rem;
+  font-size: 15px;
+  background-color: #252525;
+  padding: 20px;
+}
 .box__code > div > .white {
   color: #fff;
   margin-left: 40px;
 }
-.big{
-  height: 10rem ;
+.big {
+  height: 10rem;
 }

@@ -1,0 +1,28 @@
+.import {
+  width: 40rem !important;
+}
+.close__button {
+  height: 4rem;
+  width: 40rem;
+  border: 1px solid rgb(226, 217, 217);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  padding: 30px;
+}
+.usage_h1 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+.bi-x-lg {
+  height: 2rem;
+  width: 2rem;
+}
+.md{
+    height: 1.7rem;
+    width: 1.7rem;
+}
