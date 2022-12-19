@@ -1,0 +1,57 @@
+.alert__container {
+  height: 25rem;
+  width: 55rem;
+  border: 1px solid rgb(226, 217, 217);
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.box-1__inner {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border: 1px solid black;
+  background-color: rgb(228, 66, 66);
+  width: 50rem;
+}
+.box-1__inner > p {
+  padding: 15px;
+  color: #fff;
+}
+.alert__flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.alert__error {
+  background-color: rgb(244, 174, 174);
+  border: none;
+}
+.alert__error > p {
+  color: black;
+}
+.alert__success {
+  background-color: rgb(127, 244, 127);
+  border: none;
+}
+.alert__success > p {
+  color: black;
+}
+.alert__warning{
+    background-color: rgb(255, 255, 133);
+    border: none;
+}
+.alert__warning > p{
+    color: black;
+}
+.alert__info{
+    border: none;
+    background-color: rgb(156, 156, 254);
+}
+.alert__info >p{
+    color: black;
+}

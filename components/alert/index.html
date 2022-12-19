@@ -1,12 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="alert.css" />
+    <link rel="stylesheet" href="../component.css" />
+    <title>🐉|Button</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__left">
+        <a href="/"
+          ><img src="/assets/logo2.svg" alt="logo" class="nav__left__svg" />
+          <p>Celestial Dragon</p></a
+        >
+      </div>
+      <div class="nav__right">
+        <div class="nav__right__1">
+          <a href="">Design</a>
+          <a href="">Development</a>
+          <a href="">Component</a>
+          <a href="">Blogs</a>
+          <a href="">Resource</a>
+        </div>
+        <div class="nav__right__2">
+          <a href="https://github.com/md-anas-sabah/celestial-dragon-ui">
+            <i class="fab fa-github"></i>
+            <p>Github</p>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="sidebar">
+        <p>Components</p>
+        <ul>
+          <li><a href="../box/index.html">Box</a></li>
+          <li><a href="../avatar/index.html">Avatar</a></li>
+          <li><a href="../button/index.html">Button</a></li>
+          <li><a href="../close button/index.html">Close Button</a></li>
+          <li><a href="../input/index.html">Input</a></li>
+          <li><a href="">Alert</a></li>
+          <li><a href="../text/index.html">Text</a></li>
+          <li><a href="../headings/index.html">Heading</a></li>
+          <li><a href="../links/index.html">Links</a></li>
+        </ul>
+      </div>
+      <div class="main__container">
+        <div class="main__container__header">
+          <h1>Alert</h1>
+          <p>
+            An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.
+          </p>
+        </div>
+        <div class="main__container__body">
+          <h1>Import</h1>
+          <div class="import">
+            <p>
+              <span class="light-green">import </span>
+              <span class="purple">{</span> Alert
+              <span class="purple__1">}</span
+              ><span class="light-green">from</span>
+              <span class="green"> '@celestial-ui/react'</span>
+            </p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-clipboard"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+              />
+              <path
+                d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+              />
+            </svg>
+          </div>
+
+          <h1 class="usage_h1">Basic alerts</h1>
+          <p class="usage_p">The alert offers four severity levels that set a distinctive icon and color.</p>
+          <div class="alert__container">
+            <div class="box-1__inner alert__error alert__flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="red" fill="currentColor" class="bi bi-exclamation-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+                  </svg>
+                <p>This is an error alert — check it out!</p>
+              </div>
+            <div class="box-1__inner alert__success alert__flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" color="green" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+                    <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z"/>
+                    <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z"/>
+                  </svg>
+                <p>This is a success alert — check it out!</p>
+              </div>
+            <div class="box-1__inner alert__warning alert__flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="black" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+                    <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+                    <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+                  </svg>
+                <p>This is a warning alert — check it out!</p>
+              </div>
+            <div class="box-1__inner alert__info alert__flex">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" color="blue" fill="currentColor" class="bi bi-info-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+                <p>This is an info alert — check it out!</p>
+              </div>
+          </div>
+          <div class="box__code">
+            <div>
+              <div>
+                <span class="blue"><</span><span class="yellow">Alert </span
+                ><span class="green"><i>severity</i></span
+                ><span class="blue">=</span><span class="blue">"</span
+                ><span class="light-green">error</span
+                ><span class="blue">"</span
+                ><span class="blue">></span><span class="white">This is an error alert — check it out!</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Alert</span><span class="blue">></span>
+              </div>
+              <div>
+                <span class="blue"><</span><span class="yellow">Alert </span
+                    ><span class="green"><i>severity</i></span
+                    ><span class="blue">=</span><span class="blue">"</span
+                    ><span class="light-green">success</span
+                    ><span class="blue">"</span
+                    ><span class="blue">></span><span class="white">This is a success alert — check it out!</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Alert</span><span class="blue">></span>
+              </div>
+              <div>
+                <span class="blue"><</span><span class="yellow">Alert </span
+                    ><span class="green"><i>severity</i></span
+                    ><span class="blue">=</span><span class="blue">"</span
+                    ><span class="light-green">warning</span
+                    ><span class="blue">"</span
+                    ><span class="blue">></span><span class="white">This is a warning alert — check it out!</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Alert</span><span class="blue">></span>
+              </div>
+              <div>
+                <span class="blue"><</span><span class="yellow">Alert </span
+                    ><span class="green"><i>severity</i></span
+                    ><span class="blue">=</span><span class="blue">"</span
+                    ><span class="light-green">info</span
+                    ><span class="blue">"</span
+                    ><span class="blue">></span><span class="white">This is an info alert — check it out!</span><span class="blue"><</span><span class="blue">/</span><span class="yellow">Alert</span><span class="blue">></span>
+              </div>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-clipboard white"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"
+                />
+                <path
+                  d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"
+                />
+              </svg>
+            </div>
+          </div>
+         
+      </div>
+      <br>
+    </div>
+  </body>
 </html>
