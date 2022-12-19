@@ -310,6 +310,7 @@ nav {
   border: 1px solid black;
   border-radius: 10px;
   height: 15rem;
+  align-items: center;
   font-size: 15px;
   background-color: #252525;
   padding: 20px;
