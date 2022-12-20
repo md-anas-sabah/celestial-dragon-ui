@@ -1,0 +1,23 @@
+{
+  "name": "celestial-dragon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md-anas-sabah/celestial-dragon-ui.git"
+  },
+  "author": "Md Anas Sabah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/md-anas-sabah/celestial-dragon-ui/issues"
+  },
+  "homepage": "https://github.com/md-anas-sabah/celestial-dragon-ui#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2"
+  }
+}

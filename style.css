@@ -36,6 +36,7 @@ nav {
 .nav__left > a {
   display: flex;
   align-items: center;
+  flex-direction: row;
   font-weight: 700;
   font-size: 18px;
 }
@@ -50,9 +51,10 @@ nav {
   margin-left: 35px;
   align-items: center;
 }
-.nav__left > p {
+.nav__left > a > p {
   font-weight: 700;
   font-size: 16px;
+  color: black;
 }
 .nav__right {
   align-items: center;
@@ -90,7 +92,9 @@ nav {
   cursor: pointer;
   transition: width 1s;
 }
-
+.nav__right__2 > a > p {
+  color: black;
+}
 .header__right__1 > a {
   text-decoration: none;
   color: black;
@@ -232,3 +236,37 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 } */
+.fas {
+  font-size: 30px;
+}
+.dm {
+  cursor: pointer;
+  height: 3rem;
+  width: 5rem;
+  border-radius: 0px 30px 30px 0px;
+  border-left: none;
+  background-color: white;
+}
+.dark-mode {
+  background-color: rgb(33, 33, 33);
+}
+.dark-mode > nav > .nav__left > a > p {
+  color: white;
+}
+.dark-mode > nav > .nav__right > .nav__right__1 > a {
+  color: white;
+}
+.dark-mode > nav > .nav__right > .nav__right__2 > a {
+  color: white;
+  background-color: rgb(61, 56, 56);
+}
+.dark-mode > nav > .nav__right > .nav__right__2 > a > p {
+  color: white;
+}
+.dark-mode > main > .main__container > h1,
+p {
+  color: white;
+}
+.dark-mode > footer {
+  color: white;
+}
