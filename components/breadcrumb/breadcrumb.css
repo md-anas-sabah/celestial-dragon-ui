@@ -1,0 +1,19 @@
+.breadcumber__container {
+  height: 5rem;
+  width: 70rem;
+  border: 1px solid rgb(226, 217, 217);
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: start;
+  align-items: flex-start;
+  border-radius: 20px;
+  padding: 20px;
+}
+.breadcumber__container > a:hover{
+    border-bottom: 1px solid grey;
+}
+.br__margin{
+    margin-left: 20px;
+}

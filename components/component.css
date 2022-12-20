@@ -200,11 +200,11 @@ nav {
   font-size: 18px;
   margin-top: 30px;
 }
-.usage > p{
+.usage > p {
   margin-top: 10px;
 }
 
-.usage_p{
+.usage_p {
   margin-top: 10px;
 }
 
@@ -255,6 +255,9 @@ nav {
   padding: 5px;
   border-radius: 5px;
   margin-top: 20px;
+}
+.import-lg {
+  height: 9rem;
 }
 .box__code {
   display: flex;
